@@ -1,0 +1,829 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+   list-style: none; 
+   font-family: 'Roboto Slab', serif;
+}
+
+.container {
+    width: 1200px;
+    max-width: 90%;
+    margin: auto;
+}
+
+header {
+    background: url(/restaurant1/img/portada.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Logo y numero */
+
+header .logo-phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+header .phone {
+    width: 40%;
+    text-align: center;
+}
+
+header .phone i {
+    color: #fff;
+}
+
+header .phone span {
+    margin-left: 5px;
+    font-weight: 300;
+}
+
+header .logo {
+    width: 60%;
+    margin-top: 10px;
+}
+
+header .logo img {
+    width: 250px;
+}
+
+/* Menu de navegacion */
+
+header nav {
+    width: 50%;
+    margin: auto;
+}
+
+header nav .menu-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+header nav li a {
+    color: #fff;
+    font-weight: 300;
+    padding: 10px;
+    border-bottom: solid transparent 1px;
+    transition: border 0.3s;
+}
+
+header nav li a:hover {
+    background: rgba(255, 255, 255, 0.116);
+    border-bottom: solid rgba(255, 255, 255, 0.39) 1px;
+}
+
+/* Titulo del restaurant */
+
+header .title-icons .icons {
+    color: #fff;
+    margin: 0  auto 30px;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .title-icons .icons .star1 { 
+    font-size: 9px;
+}
+
+header .title-icons .icons .star2 {
+    font-size: 14px;
+}
+
+header .fa-utensils {
+    font-size: 35px;
+}
+
+header .title-icons .title {
+    margin-left: -20px;
+}
+
+header .title-icons h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 150px;
+    margin: 0;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+}
+
+header .title-icons h3 {
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+header .title-icons .border {
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+header .title-icons img {
+    width: 500px;
+    margin-top: -200px;
+}
+
+/* Seccion Maestra */
+
+/* Acerca de */
+
+main .info {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+main .info .description {
+    width: 1200px;
+    height: 400px;
+}
+
+/* Articulo 1 */
+
+main .article-img {
+    background: url(/restaurant1/img/article1.jpg);
+    background-size: 160%;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-weight: 400;
+    position: relative;
+    overflow: hidden;
+}
+
+main .article-img .opacity {
+    background: rgba(0, 0, 0, 0.363);
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main .article-img .title {
+    display: block;
+    margin-top: 100px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+main .article-img h3 {
+    font-weight: 400;
+    position: absolute;
+    top: -10px;
+    left: 44%;
+}
+
+main .article-img h2 {
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+main .article-img img {
+    width: 260px;
+    height: 130px;
+    margin-top: -50px;
+}
+
+main .article-img p {
+    position: relative;
+    margin-top: -205px;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    width: 100%;
+}
+
+main .article-img .border {
+    margin-top: -150px;
+}
+
+/* Articulo 2 */
+
+main .article-about {
+    background: url(/restaurant1/img/wheat.png);
+    background-position: center;
+    background-size: 100%;
+}
+
+main .article-about .title {
+    margin-top: 80px;
+}
+
+main .article-about h3{
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+main .article-about h2 {
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+
+main .article-about .icons-food {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+main .article-about .icons-food i {
+    margin: 0 10px;
+    color: #fff;
+}
+
+main .article-about p {
+    color: #fff;
+    text-align: center;
+    padding: 0 30px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+/* Articulo 3 */
+
+main .article-booking {
+    background: url(/restaurant1/img/article3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 160%;
+}
+
+main .article-booking .opacity {
+    background: rgba(0, 0, 0, 0.363);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .article-booking h2{
+    color: #fff;
+    font-family: 'Great Vibes', cursive;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main .article-booking p {
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+/* Menu de Comida*/
+
+/* Titulo */
+
+main .food {
+    background: url(/restaurant1/img/bg_plato.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 130%;
+    overflow: hidden;
+}
+
+main .food .opacity {
+    background: rgba(0, 0, 0, 0.363);
+}
+
+main .food .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main .title-menu {
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+main .title-menu h3 {
+    font-family: 'Great Vibes', cursive;
+    color: #fff;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+main .title-menu h2 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+main .title-menu i {
+    color: #fff;
+    margin: 0 5px;
+}
+
+/* Articulo de comidas */
+
+main .menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+main .menu-food {
+    width: 30%;
+    background: #fff;
+    border-radius: 10px 10px 10px 10px;
+}
+
+main .menu-food img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+main .menu-food .description {
+    background: #fff;
+    margin: 0 auto;
+    margin-top: -50px;
+    width: 300px;
+    position: relative;
+    border-radius: 2px;
+}
+
+main .menu-food .description h4 {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+main .menu-food .description .border {
+    border-top: 1px solid #000;
+    margin: 130px;
+}
+
+main .menu-food .description p {
+    font-weight: 300;
+    padding: 0 15px;
+    font-size: 15px;
+    word-spacing: 2px;
+    line-height: 25px;
+    text-align: center;
+}
+
+main .menu-food .icons-food {
+    margin: 10px 0;
+    text-align: center;
+}
+
+main .menu-food .icons-food i {
+    color: rgb(255, 208, 0);
+    font-size: 12px;
+}
+
+main .menu-food .price {
+    color: rgb(155, 3, 3);
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin: 15px 0;
+}
+
+/* Boton */
+
+main .button {
+    background: rgb(206, 172, 133);
+    border-radius: 5px;
+    margin-bottom: 50px;
+    transition: .3s;
+}
+
+main .button a {
+    color: #fff;
+    font-weight: 300;
+    padding: 10px 40px;
+    display: inline-block;
+    transition: .3s;
+}
+
+main .button:hover a{
+    color: rgba(255, 255, 255, 0.479);
+    background: rgba(206, 172, 133, 0.603);
+    border-radius: 5px;
+}
+
+/* Seccion Reservacion */
+
+main .reserve {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main .banner-reserve {
+    background: url(/restaurant1/img/reserve.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 400px;
+}
+
+main .reserve .opacity {
+    background: rgba(0, 0, 0, 0.363);
+    height: 100%;
+}
+
+main .banner-reserve .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .banner-reserve .title {
+    margin: 50px 0 80px;
+}
+
+main .banner-reserve .title h2,
+main .banner-reserve .title h3,
+main .banner-reserve .description p {
+    color: #fff;
+    text-align: center;
+}
+
+main .banner-reserve .title h3 {
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+main .banner-reserve .title h2 {
+    font-weight: 400;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+main .banner-reserve .description p {
+    padding: 0 10px;
+    font-weight: 300;
+    font-family: 15px;
+    line-height: 30px;
+}
+
+main .reserve .info-reserve {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: -100px;
+    padding: 50px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px 5px 0 0;
+}
+
+main .info-reserve span {
+    color: rgb(0, 57, 245);
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+main .info-reserve p {
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+main .info-reserve a {
+    color: #000;
+    margin-right: 10px;
+    transition: .3s;
+}
+
+main .info-reserve a:hover {
+    color: rgba(0, 0, 0, 0.507);
+}
+
+/* Mapa */
+
+main .map {
+    width: 100%;
+    margin-bottom: -4px;
+}
+
+/* Pie de pagina */
+
+footer {
+    background: url(/restaurant1/img/wheat.png);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    height: 600px;
+    overflow: hidden;
+}
+
+footer .footer-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+/* Direccion, telefono y correo */
+
+footer .info-footer {
+    width: 400px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer .info-footer i,
+footer .info-footer h4,
+footer .info-footer p {
+    margin-bottom: 10px;
+}
+
+footer .info-footer i{
+    font-size: 30px;
+}
+
+footer .info-footer p {
+    font-weight: 300;
+}
+
+/* Redes */
+
+footer .reds-socials {
+    width: 400px;
+    position: relative;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer .reds-socials i {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+footer .reds-socials h4 {
+    margin-bottom: 20px;
+}
+
+footer .reds-socials ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .reds-socials li a {
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    font-size: 30px;
+}
+
+footer .reds-socials li a:hover {
+    transform: translateY(-10px);
+}
+
+/* Horarios */
+
+footer .schedule {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer .schedule i {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+footer .schedule span {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+footer .schedule p {
+    margin-bottom: 5px;
+    padding: 0 0 5px 0;
+    border-bottom: 1px solid #fff;
+    width: 180px;
+}
+
+/* Derechos */
+
+footer .copyritgh {
+    width: 500px;
+    margin: 0 auto 10px;
+}
+
+footer .copyritgh a {
+    color: rgba(255, 255, 255, 0.678);
+    transition: .3s;
+}
+
+footer .copyritgh a:hover {
+    color: rgba(255, 255, 255, 0.418);
+}
+
+/* responsive */
+
+@media (max-width: 2560px) {
+    header .title-icons {
+        margin-top: 30%;
+    }
+}
+
+@media (max-width: 1920px) {
+    header .title-icons {
+        margin-top: 20%;
+    }
+}
+
+@media (max-width: 1600px) {
+    header .title-icons {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 1000px) {
+    header {
+        background-size: 200%;
+    }
+
+    main .article-img {
+        background-size: 300%;
+    }
+
+    main .article-booking {
+        background-size: 300%;
+    }
+
+    main .food {
+        background-size: 200%;
+    }
+
+    main .banner-reserve {
+        background-size: 200%;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        background-size: 250%;
+    }
+
+    header .logo-phone {
+        margin-top: 10px;
+        flex-direction: column;
+    }
+
+    header .logo-phone .logo {
+        width: 45%;
+    }
+
+    main .info {
+        flex-direction: column;
+    }
+
+    main .info .description {
+        width: 100%;
+    }
+
+    main .article-img {
+        background-size: 400%;
+    }
+
+    main .article-booking {
+        background-size: 400%;
+    }
+
+    main .food {
+        background-size: 400% 100%;
+    }
+
+    main .food .menu {
+        flex-direction: column;
+    }
+
+    main .food .menu .menu-food {
+        width: 70%;
+        margin-bottom: 10px;
+    }
+
+    main .banner-reserve {
+        background-size: 200%;
+    }
+
+    main .reserve .info-reserve {
+        width: 400px;
+        text-align: center;
+    }
+
+    footer {
+        height: 100%;
+    }
+
+    footer .footer-container {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    footer .copyritgh {
+        text-align: center;
+    }
+}
+
+@media (max-width: 350px) {
+    header {
+        background-size: 300%;
+    }
+
+    header .logo-phone {
+        margin-top: 10px;
+        flex-direction: column;
+    }
+
+    header .logo-phone .logo {
+        width: 75%;
+    }
+
+    header .title-icons {
+        margin-top: -50px;
+    }
+
+    header .title-icons .icons i {
+        margin: 0 5px;
+    }
+
+    header .title-icons .title h1 {
+        font-size: 100px;
+    }
+
+    header .title-icons .border {
+        margin-top: 100px;
+    }
+
+    header .title-icons .border img{
+        width: 200px;
+    }
+
+    main .food .menu .menu-food {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    main .reserve .info-reserve {
+        width: 300px;
+        text-align: center;
+    }
+
+    footer .info-footer {
+        width: 250px;
+    }
+
+    footer .reds-socials {
+        width: 250px;
+    }
+
+    footer .schedule {
+        width: 250px;
+    }
+
+    footer .copyritgh {
+        text-align: center;
+        width: 300px;
+    }
+}
