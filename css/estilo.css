@@ -778,8 +778,44 @@ footer .copyritgh a:hover {
         background-size: 250%;
     }
 
+    header nav ul a{
+        display: none;
+    }
+
+    header .title-icons {
+        margin-top: -60px;
+    }
+
+    header .title-icons i {
+        margin: 0 5px;
+    }
+
+    header .title-icons .title h3 {
+        font-size: 20px;
+    }
+
+    header .title-icons .title h1 {
+        font-size: 90px;
+    }
+
+    header .title-icons .title .border {
+        margin-top: 70px;
+    }
+
+    header .title-icons .title .border img {
+        width: 300px;
+    }
+
+    main .food {
+        background-size: 765%;
+    }
+
     main .reserve .banner-reserve {
-        background-size: 150%;
+        background-size: 156%;
+    }
+
+    main .reserve .info-reserve {
+        margin-top: -40px;
     }
 
     footer .footer-container {
