@@ -684,6 +684,20 @@ footer .copyritgh a:hover {
 
 }
 
+@media (max-width: 1400px) {
+    header {
+        background-size: 120%;
+    }
+
+    main .info .description {
+        background-size: 210%;
+    }
+
+    main .food {
+         background-size: 158%;
+    }
+}
+
 @media (max-width: 1000px) {
     header {
         background-size: 200%;
@@ -714,7 +728,7 @@ footer .copyritgh a:hover {
     }
 
     main .food {
-        background-size: 300%;
+        background-size: 463%;
     }
 
     main .food .menu {
