@@ -273,6 +273,7 @@ footer .copyritgh a:hover {
         height: 100vh;
         padding: 40px;
         z-index: 1;
+        transition: all .3s;
     }
 
     header nav img {
